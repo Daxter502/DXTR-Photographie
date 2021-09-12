@@ -1,0 +1,115 @@
+/* font-family: 'Syncopate', sans-serif; */
+
+head{
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+/* MENU NAVIGATION */
+.menu-title{
+    
+    font-size: 45px;
+    color:white;
+    vertical-align: middle;
+}
+
+nav#nav{
+    display: block;
+    background-color: black;
+    height: 50px;
+}
+
+nav.menu-nav{
+    text-align: left;
+    font-family: 'Syncopate', sans-serif;
+}
+
+nav.menu-nav ul li.btn{
+     display: inline-block;
+     list-style-type: none;
+}
+
+nav.menu-nav ul li a {
+	margin-left: 50px;
+}
+
+nav.menu-nav ul li.btn a {
+	color: white;
+	background-color:rgba(255, 255, 255, 0);
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+	opacity: 1;
+    font-size: 25px;
+    vertical-align: middle;
+    
+}
+
+nav.menu-nav ul li.btn a:hover {
+	color: white;
+	background-color:rgba(255, 255, 255, 0);
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+	opacity: 1;
+    font-size: 25px;
+    vertical-align: middle;
+    text-shadow: -22px -20px 1px aqua, 22px 20px 1px red;
+    transition: 0.3s all;
+    
+}
+
+
+/* Flexbox d'image */
+.photo img{
+    background-color: rgb(250, 199, 33);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto;
+    margin: 15px;
+}
+
+.photo a:hover {
+    box-shadow: -4px 0px 1px white;
+    transition: 0.3s;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* vitrine d'album */
+.album img{
+    text-decoration: none;
+    width: 480px;
+    height: auto;
+    margin: 15px;
+    border-radius: 20px;
+
+}
+
+
+#collection.album{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap:wrap;
+    margin: auto;
+    text-align: center;
+
+}
+
+.title-album{
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+
+}
+
+img{
+    vertical-align: auto;
+}
