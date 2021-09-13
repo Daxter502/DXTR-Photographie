@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
     <title>DXTR</title>
     <link rel="stylesheet" href="styles.css">
     <?php include 'menu-nav.php' ?>
 </head>
 
 <body>
-<img src="https://images5.fanpop.com/image/photos/28900000/LOL-Yui-k-on-28953580-1245-707.jpg">
+    <div class="titre">
+        <h1>
+            AVIATION
+        </h1>
+    </div>
+    <div class="vitrine">
+        <img src="img/IMG_0300.jpg">
+    </div>
 </body>
 <footer>
     <?php include 'fotter.php' ?>

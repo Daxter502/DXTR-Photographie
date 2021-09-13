@@ -10,26 +10,28 @@
 <body>
     <div id="collection" class="album">
          <figure>
-            <img src="img/IMG_0359.jpg" alt="">
-            <figcaptation> <p class="title-album">AVIATION</p> </figcaptation>
+            <a href="album1.php"><img src="img/IMG_0359.jpg" alt=""></a>
+            <figcaptation> <p class="title-album" src url>AVIATION</p> </figcaptation>
         </figure>
         <figure>
-            <img src="img/P1000209.jpg" alt="">
+            <a href="album2.php"><img src="img/P1000209.jpg" alt=""></a>
             <figcaptation> <p class="title-album">PAYSAGE</p> </figcaptation>
         </figure>
         <figure>
-            <img src="img/IMG_0652.jpg" alt="">
+            <a href="album3.php"><img src="img/IMG_0652.jpg" alt=""></a>
             <figcaptation> <p class="title-album">NATURE</p> </figcaptation>
         </figure>
         <figure>
-            <img src="img/IMG_0476.jpg" alt="">
-            <figcaptation> <p class="title-album">LE CHATEAU DANS LE CIEL QUI COULE</p> </figcaptation>
+            <a href="album4.php"><img src="img/IMG_0476.jpg" alt=""></a>
+            <figcaptation> <p class="title-album">LE CHATEAU DANS LE CIEL QUI COULE</p></figcaptation>
         </figure>
         <figure>
-            <img src="img/IMG_0300.jpg" alt="">
+            <a href="album5.php"><img src="img/IMG_0300.jpg" alt=""></a>
             <figcaptation> <p class="title-album">FIGURINE</p> </figcaptation>
         </figure>
     </div>
 </body>
-
+<footer>
+    <?php include 'fotter.php' ?>
+</footer>
 </html>
