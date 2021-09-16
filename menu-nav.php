@@ -1,5 +1,5 @@
 <nav id="nav" class="menu-nav">
-    <ul>
+    <ul class="list">
         <a class="menu-title">DXTR PHOTOGRAPHIE</a>
         <li class="btn">
             <a href="index.php">ACCEUIL</a>
