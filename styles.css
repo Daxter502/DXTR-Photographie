@@ -10,10 +10,10 @@ body{
 
 /* MENU NAVIGATION */
 .menu-title{
-    
     font-size: 20px;
     color:white;
     vertical-align: middle;
+    float: left;
 }
 
 ul{
@@ -28,18 +28,17 @@ nav#nav{
 }
 
 nav.menu-nav{
-    text-align: left;
+    text-align: right;
     font-family: 'Syncopate', sans-serif;
 }
 
 nav.menu-nav ul.list li.btn{
-     display: inline-block;
-     list-style-type: none;
+    display: inline-block;
+    list-style-type: none;
+    display: contents;
+    justify-content: right;
 }
 
-nav.menu-nav ul li a {
-	
-}
 
 nav.menu-nav ul li.btn a {
 	color: white;
@@ -110,7 +109,7 @@ nav.menu-nav ul li.btn a:hover {
 }
 
 .photo-acceuil .picture  {
-    background-color: rgb(250, 199, 33);
+    background-color: rgb(255, 255, 255);
     width: 600px;
     height: auto;
     margin: 20px;
@@ -144,18 +143,49 @@ nav.menu-nav ul li.btn a:hover {
     align-items: center;
     justify-content: center;
     vertical-align: middle;
+    
 }
 img.album-picture {
     height: auto;
     width: 500px;
-    border-radius: 30px;
+    border-radius: 2rem 2rem;
+    
+}
+img.album-picture:hover {
+    box-shadow: -5px 0px 1px #ffffff, 5px 0px 0px #ffffff;
+    transition: 0.4s;
 }
 
 .title-album{
     font-family: 'Syncopate', sans-serif;
     color: white;
-
 }
+
+/* fin vitrine d'album */
+
+
+/* Vitrine  */
+
+.vitrine{
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    vertical-align: bottom;
+    align-items: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-photo{
+    height: auto;
+    width: 1200px;
+    border-radius: 1rem 1rem;
+    margin: 50px;
+}
+
+/* Fin Vitrine */
 
 div.titre h1{
     color: white;
@@ -163,6 +193,14 @@ div.titre h1{
     text-align: center;
     font-size: 45px;
     margin: 50px;
+}
+
+.contact-picture{
+    border-radius: 31% 69% 75% 25% / 22% 52% 48% 78%  ;
+    width: 800px;
+    height: auto;
+    
+    
 }
 
 
@@ -175,4 +213,5 @@ div.titre h1{
     color: white;
     padding-left: 20px ;
     font-family: 'Syncopate', sans-serif;
+    padding-top: calc(50px);
 }

@@ -14,7 +14,13 @@
         </h1>
     </div>
     <div class="vitrine">
-        <img src="img/IMG_0300.jpg">
+        <ul>
+            <li><img class="album-photo" src="img/IMG_0359.jpg"></li>
+            <li><img class="album-photo" src="img/IMG_0359.jpg"></li>
+            <li><img class="album-photo" src="img/IMG_0359.jpg"></li>
+            <li><img class="album-photo" src="img/IMG_0359.jpg"></li>
+        </ul>
+        
     </div>
 </body>
 <footer>

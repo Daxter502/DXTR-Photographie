@@ -11,10 +11,11 @@
         <div class="album">
             <ul class ="">
                 <h1>ALBUM</h1>
-                <li><a href="album1.php"><img class="album-picture" src="img/IMG_0359.jpg" alt=""></a><p class="title-album" src url>AVIATION</p> 
+                <li><a href="album-aviation.php"><img class="album-picture" src="img/IMG_0359.jpg" alt=""></a>
+                    <p class="title-album" src url>AVIATION</p> 
                 </li>
                 <li>
-                    <a href="album2.php"><img class="album-picture" src="img/[000041].jpg" alt=""></a>
+                    <a href="album-paysage.php"><img class="album-picture" src="img/[000041].jpg" alt=""></a>
                     <p class="title-album">PAYSAGE</p>
                 </li>
                 <li>
