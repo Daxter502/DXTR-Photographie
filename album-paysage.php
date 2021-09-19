@@ -16,7 +16,8 @@
             <li><img class="album-photo" src="img/[000041].jpg"></li>
             <li><img class="album-photo" src="img/IMG_0476.jpg"></li>
             <li><img class="album-photo" src="img/P1000209.jpg"></li>
-            <li><img class="album-photo" src="img/IMG_0359.jpg"></li>
+            <li><img class="album-photo" src="img/[000013].jpg"></li>
+            
         </ul>
     </div>
 </body>

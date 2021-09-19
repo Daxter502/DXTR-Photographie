@@ -19,8 +19,12 @@
                     <p class="title-album">PAYSAGE</p>
                 </li>
                 <li>
-                    <a href="album3.php"><img class="album-picture" src="img/IMG_0652.jpg" alt=""></a>
+                    <a href="album-nature.php"><img class="album-picture" src="img/IMG_0652.jpg" alt=""></a>
                     <p class="title-album">NATURE</p>
+                </li>
+                <li>            
+                    <a href="album-animaux.php"><img class="album-picture" src="img/[000051].jpg" alt=""></a>
+                    <p class="title-album">ANIMAUX</p>
                 </li>
                 <li>            
                     <a href="album4.php"><img class="album-picture" src="img/IMG_0476.jpg" alt=""></a>

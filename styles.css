@@ -78,10 +78,9 @@ nav.menu-nav ul li.btn a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
  
 }
+
 .photo-acceuil ul{
 
     flex-direction:row;
@@ -145,15 +144,17 @@ nav.menu-nav ul li.btn a:hover {
     vertical-align: middle;
     
 }
+
 img.album-picture {
     height: auto;
     width: 500px;
-    border-radius: 2rem 2rem;
+    border-radius: 1rem 1rem;
     
 }
+
 img.album-picture:hover {
-    box-shadow: -5px 0px 1px #ffffff, 5px 0px 0px #ffffff;
-    transition: 0.4s;
+    box-shadow: 5px 5px 1px #ffffff;
+    transition: 0.5s;
 }
 
 .title-album{
@@ -199,11 +200,18 @@ div.titre h1{
     border-radius: 31% 69% 75% 25% / 22% 52% 48% 78%  ;
     width: 800px;
     height: auto;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto
     
 }
 
+.contact-picture:hover {
+    
+    border-radius: 55% 45% 37% 63% / 57% 61% 39% 43%  ;
+    transition: 1s;
 
+}
 
 /* FOOTER */
 
