@@ -1,5 +1,11 @@
 /* font-family: 'Syncopate', sans-serif; */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 head{
     margin: 0px;
 }
@@ -25,6 +31,7 @@ nav#nav{
     background-color: black;
     height: 50px;
     position: relative;
+    padding: 20px;
 }
 
 nav.menu-nav{
@@ -142,6 +149,7 @@ nav.menu-nav ul li.btn a:hover {
     align-items: center;
     justify-content: center;
     vertical-align: middle;
+
     
 }
 
@@ -149,6 +157,7 @@ img.album-picture {
     height: auto;
     width: 500px;
     border-radius: 1rem 1rem;
+    
     
 }
 
@@ -160,6 +169,7 @@ img.album-picture:hover {
 .title-album{
     font-family: 'Syncopate', sans-serif;
     color: white;
+    padding: 18px;
 }
 
 /* fin vitrine d'album */
@@ -202,7 +212,7 @@ div.titre h1{
     height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
     
 }
 
