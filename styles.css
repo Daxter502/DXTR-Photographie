@@ -190,10 +190,13 @@ img.album-picture:hover {
 }
 
 .album-photo{
+    max-height: 800px;
     height: auto;
     width: 1200px;
     border-radius: 1rem 1rem;
     margin: 50px;
+    object-fit: scale-down;
+    
 }
 
 /* Fin Vitrine */
